@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/ajas01862/react-test.git",
+    "deploy": "gh-pages -d dist -r https://github.com/ajas01862/react-test.git -t true -b gh-pages --git D:/My_Scripts/Website/React/e-commerce/.git",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
